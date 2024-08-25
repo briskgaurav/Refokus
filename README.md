@@ -12,9 +12,11 @@ Experience the magic in action: [**Refokkus**](https://refokkus.netlify.app/) �
 
 ## 🛠️ Features
 
-- **🔍 Feature 1**: Explore this awesome feature.
-- **⚙️ Feature 2**: Discover how this works.
-- **🚀 Feature 3**: Enjoy this cool functionality.
+- **🔍 Feature 1**: Modern React Features
+- **⚙️ Feature 2**: User Experience Enhancements
+- **🚀 Feature 3**: Easy Customization and Extensibility
+- **🎨 Feature 4**: Customizable UI with Tailwind CSS
+- **🚀 Feature 5**: Smooth Animations with Framer Motion
 
 ---
 
