@@ -1,24 +1,12 @@
-# 🚀 Project Name
+# 🚀 REFOKUS MODERN WEBSITE
 
-Welcome to the **Project Name** repository! 🌟 This project is designed to [describe the main functionality or purpose of the project]. Dive in and explore what we have to offer!
+Welcome to the **REFOKUS** repository! 🌟 Dive in and explore what we have to offer!
 
 ---
 
 ## 🌐 Live Demo
 
 Experience the magic in action: [**Refokkus**](https://refokkus.netlify.app/) ✨
-
----
-
-## 📸 Screenshots
-
-Check out some snapshots of what this project looks like:
-
-![Screenshot1](https://via.placeholder.com/800x400.png?text=Screenshot1)
-*An overview of the project in action*
-
-![Screenshot2](https://via.placeholder.com/800x400.png?text=Screenshot2)
-*Another glimpse into the project*
 
 ---
 
@@ -55,7 +43,7 @@ Get up and running with these simple steps:
 4. **Start the project:**
 
     ```bash
-    npm start
+    npm run dev
     ```
 
 ---
@@ -65,5 +53,4 @@ Get up and running with these simple steps:
 Here’s how you can start using the project:
 
 ```bash
-# Example command to run the project
-npm run start
+npm run dev
