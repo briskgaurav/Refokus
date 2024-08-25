@@ -37,7 +37,7 @@ function Lists() {
     {
       name: "Yahoo!",
       Description:
-        "We enhanced the New York Fashion Week, by creating a fully digital AR fashion experience for Yahoo and Maisie Wilen, featuring holographic 3D models and an integrated web shop.",
+        "We enhanced the New York Fashion Week, by creating a fully digital AR fashion featuring holographic 3D models, an integrated web shop.",
       case: true,
       website: true,
       hover: "hover:bg-blue-500",
@@ -45,7 +45,7 @@ function Lists() {
     {
       name: "Rainfall",
       Description:
-        "We crafted a website for Rainfall Ventures, developing prototypes and custom code that ultimately allows their team to update content regularly and with ease.",
+        "We crafted a website for Rainfall Ventures, custom code that ultimately allows their team to update content regularly and with ease.",
       case: true,
       website: true,
       hover: "hover:bg-orange-500",
@@ -61,7 +61,7 @@ function Lists() {
   
 
   return (
-    <div  className="relative">
+    <div  className="relative ">
       {pro.map((elem, index) => (
         <List pos={animation} val={index} key={index} list={elem} />
       ))}

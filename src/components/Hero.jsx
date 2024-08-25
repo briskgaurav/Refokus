@@ -12,7 +12,7 @@ function Hero() {
     {img:"https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0acbc45cb2f4fc5c6b2_Yahoo.png", left:"52%",top:"58%" , isActive:false},
     {img:"https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0af108a465002975acd_Showcase%20Websites%20(1).png", left:"44%",top:"63%" , isActive:false},
     {img:"https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0ac7e7179d210dc41f0_Summon.png", left:"50%",top:"66%" , isActive:false},
-    {img:"https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef092455ce2cf591e52d1_Rainfall.png" ,left:"49%",top:"72%" , isActive:false},
+    {img:"https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef092455ce2cf591e52d1_Rainfall.png" ,left:"55%",top:"72%" , isActive:false},
 ]);
 
 const { scrollYProgress }=useScroll()
@@ -62,7 +62,7 @@ scrollYProgress.on("change",(data)=>{
         <div className=' top-0'>
       {data.map((elem,index)=>(
 
-        elem.isActive && <img key={index} className='absolute w-36 lg:w-56 rounded-xl -translate-x-[50%] -translate-y-[50%]' style={{top:elem.top,left:elem.left}} src={elem.img}></img>
+        elem.isActive && <img key={index} className='absolute w-44 lg:w-56 rounded-xl -translate-x-[50%] -translate-y-[50%]' style={{top:elem.top,left:elem.left}} src={elem.img}></img>
         
       ))}
     </div>
